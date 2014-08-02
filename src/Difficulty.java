@@ -17,13 +17,6 @@ public abstract class Difficulty {
         this.NUM_OF_MINES = m;
     }
 
-    public Difficulty() {
-        this.ROWS = 0;
-        this.COLUMNS = 0;
-        this.NUM_OF_MINES = 0;
-        System.err.println("Must not use default constructor of Difficulty!");
-    }
-
     int getRows() {
         return ROWS;
     }
